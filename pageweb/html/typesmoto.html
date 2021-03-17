@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Les différents types de motos</title>
+  <link rel="stylesheet" href="../css/css.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+ 
+</head>
+
+<script language="JavaScript">
+function display_photo(p_name,p_w,p_h,p_legend) {
+   if (self.innerWidth) {
+      winwidth = self.innerWidth;
+      winheight = self.innerHeight;
+   }
+   else if (document.documentElement && document.documentElement.clientWidth) {
+      winwidth = document.documentElement.clientWidth;
+      winheight = document.documentElement.clientHeight;
+   }
+   else if (document.body) {
+      winwidth = document.body.clientWidth;
+      winheight = document.body.clientHeight;
+   }
+   if (Number(p_w) < winwidth) winwidth = Number(p_w);
+   if (Number(p_h) < winheight) winheight = Number(p_h);
+   winwidth += 8; winheight += 40;
+ pwin=window.open("","","toolbar=0,location=0,directories=0,status=0,menubar=0,resizable=1,scrollbars=yes,copyhistory=0,width="+winwidth+",height="+winheight+",left=10,top=10" );
+   pwin.document.write("<html><head>" );
+   pwin.document.write("<title>Zoom</title>" );
+   pwin.document.write("<style type=text/css>" );
+   pwin.document.write("body {" );
+   pwin.document.write("margin:0;" );
+   pwin.document.write("padding:0;" );
+   pwin.document.write("color:white;" );
+   pwin.document.write("background-color:black; }" );
+   pwin.document.write("</style>" );
+   pwin.document.write("</head>" );
+   pwin.document.write("<body>" );
+   pwin.document.write("<img src="+p_name+" width="+p_w+" height="+p_h+">" );
+   pwin.document.write("<table noborder width=100%><tr>" );
+   pwin.document.write("<form><td align=left>"+p_legend+"</td>" );
+   pwin.document.write("<td align=right><input type='button' value='Fermer' onClick='window.close()'></td>" );
+   pwin.document.write("</tr></table></form>" );
+   pwin.document.write("</body></html>" );
+}
+</script>
+
+<body>
+
+<!--entête-->
+<header class="container-fluid header">
+	<div class="container">
+	
+		<nav class="menu">
+		<a href="index.html"> Acceuil </a>
+		<a href="#"> Les différents types de motos </a>
+		<a href="equipement.html"> L'équipement </a>
+		</nav>
+	</div>
+
+</header>
+<!-- fin entête-->
+	
+
+
+<!--bannière-->
+
+
+
+
+<section class="container-fluid banner3">
+	<div class="ban3">
+		<img src="../img/typemoto.jpg" alt="bannière">
+	</div>
+	
+</section>
+<!--fin bannière-->
+
+<br>
+
+<hr class="separateur2">
+
+<!--texte-->
+<section class="container-fluid texte">
+	<div class="container">
+	
+		
+
+		
+		<h2 class="titre">Les différents types de motos</h2>
+
+		<br>
+
+		<hr class="separateur3">
+
+		<br>
+		<br>
+
+		<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Types de motos</th>
+      <th scope="col">Description</th>
+      <th scope="col">Photos</th>
+     
+    </tr>
+
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Les Utilitaires</th>
+      <td>Les petites et moyennes cylindrées sont économiques et offrent le meilleur rapport qualité/prix. 
+      <br>Outre les motos dites "basiques-utilitaires", les roadsters de cylindrée moyenne sont également prisés par les débutants pour leur facilité de prise en main.
+      <br>
+	  Elles sont souvent utilisées dans le cadre professionnel en ville.
+	</td>
+	<td> 
+    <a href="javascript:display_photo('../img/cb500f.jpg','1160','828','CB 500F')">
+    <img src="../img/cb500f.jpg" alt="cb500">
+    </a> </td>
+    </tr>
+
+    
+    <tr>
+      <th scope="row">Les Roadsters</th>
+      <td>Un roadster se caractérise par l'absence de carénage. L'accent est mis sur les sensations d'accélération, de nervosité et de maniabilité. 
+      	<br>Le rapport poids/puissance élevé permet d'avoir un moteur riche en couple.
+      	<br> Bien que destinée à une utilisation urbaine, cette moto se prête également à des trajets routiers, mais l'absence de carénage expose le conducteur à la pression du vent et il se fatigue plus vite.
+      	<br> Elle peut être dotée d'équipements spécifiques pour un meilleur confort de conduite comme une bulle (petit pare-brise, saut de vent), une tête de fourche...
+      	<br> On compte dans cette catégorie de plus en plus de roadsters sportifs, dotés de moteurs plus puissants, capables de très fortes accélérations.
+
+      <br>
+	  Les roadsters associent plaisir, sportivité, et économie.
+	</td>
+	<td>
+   <a href="javascript:display_photo('../img/hornet600.jpg','1160','828','HORNET 600')">
+    <img src="../img/hornet600.jpg" alt="  HORNET 600">
+    </a> 
+  </td>
+    </tr>
+
+    <tr>
+      <th scope="row">Les Sportives</th>
+      <td>Modèle dérivé des motos utilisées en compétition de vitesse.
+      <br> Elle est plus petite et plus légère qu'une routière donc capable d’accélération et de vitesse élevée.
+      <br> Parmi les plus puissantes, citons la série des GSX-R de Suzuki, notamment avec la Hayabusa GSX 1300 R, fer de lance de la marque et première moto de série à avoir dépassé les 300 km/h dans sa version libre (non bridée). Désormais la Kawasaki H2R (380 km/h) les détrônent.
+      <br> La législation de quelques rares pays impose la mise en place d’un limiteur de puissance (le bridage).
+      <br> En France, par exemple, la puissance est limitée à 106 cv.
+      <br> Les gros inconvénients de ces motos sont qu'elles sont peu maniables à basse vitesse et relativement inconfortables.
+
+      <br>
+
+	  Peu adaptées au transport d'un passager ou de bagages, elles sont très chères à  l'achat et à  l'entretien.</td>
+
+	  <td> 
+      <a href="javascript:display_photo('../img/cbr600r.jpg','1160','828','CBR 600R')">
+    <img src="../img/cbr600r.jpg" alt="cbr600r">
+    </a>
+      </td>
+      
+    </tr>
+
+    <tr>
+      <th scope="row">Les Trails</th>
+      <td>Ce sont des motos capables d'évoluer aussi bien sur route que sur chemin.
+      <br> La mode des trails a été lancé à la fin des années 70, avec les débuts des grandes compétitions d'endurance qui avaient lieu sur le sol africain. Ces machines sont dérivées de motos d'enduro ou de cross, mais avec tout l'équipement pour pouvoir circuler sur route.
+      <br> Cette catégorie s'est diversifiée et adaptée à la route avec l'apparition des trails routiers qui adoptent la même architecture de construction mais avec des adaptations (grands réservoirs, bagagerie, protections contre les intempéries) permettant une grande polyvalence d'utilisation mais une facilité en hors-piste moindre.
+
+      <br>
+
+	  Moins chères que les motos de tourisme, elles représentent un marché important.</td>
+
+	  <td>
+      <a href="javascript:display_photo('../img/transalp.jpg','1160','828','TRANSALP')">
+    <img src="../img/transalp.jpg" alt="transalp">
+    </a>
+    </td>
+      
+    </tr>
+
+    <tr>
+      <th scope="row">Les Customs</th>
+      <td>Cette moto se caractérise par l'absence de carénage et une position de conduite spécifique avec les pieds en avant.
+      <br> Elle imite le style des machines américaines des années 1930 au début des années 1960, comme celles produites par Harley-Davidson, Indian, Excelsior et Henderson.
+      <br> Cette catégorie s'est diversifiée avec l'apparition de la mode "rétro" et la remise au goût du jour de modèles des années 1950-1960.
+      <br> Cette catégorie de moto un peu à part est le reflet le plus affirmé de l'esprit "rebelle" porté par le motard. 
+      <br>
+      Les puristes préféreront les modèles américains, et les personnalisations du véhicule sont classiques.
+  	</td>
+  	<td> 
+      <a href="javascript:display_photo('../img/shadow750.jpg','1160','828','shadow750')">
+    <img src="../img/shadow750.jpg" alt="shadow750">
+    </a>
+    </td>
+    </tr>
+
+       <tr>
+      <th scope="row">Les Routières</th>
+      <td>Conçues pour les longs trajets routiers, ce type de moto privilégie le confort de conduite.
+      <br> Elle se caractérise par une position de conduite proche de la verticale pour permettre de conserver le dos droit, les bras tendus et les jambes dépliées.
+      <br> Les motos routières accueillent facilement un passager et une bagagerie volumineuse (top case, valise, sacoche de réservoir).
+      <br> La plupart sont dotées d'un moteur de forte cylindrée, souvent supérieure à 1 000 cm³, d'un carénage plus ou moins enveloppant destiné à protéger du vent et des intempéries.
+      <br> Elles sont également équipées d'un réservoir permettant une autonomie de plusieurs centaines de kilomètres.
+      <br> Les motos de cette catégorie se déclinent en gammes spécialisées qui partent du grand tourisme, avec les modèles les plus grands et les plus lourds, puis les routières, et enfin les routières sportives.
+
+     <br>
+	 La conduite sur route et autoroute est très agréable.
+	</td>
+	<td>
+    <a href="javascript:display_photo('../img/routiere.jpg','1160','828','ROUTIERE')">
+    <img src="../img/routiere.jpg" alt="routiere">
+    </a>
+  </td>
+    </tr>
+
+      <tr>
+      <th scope="row">Les Grand Tourisme (GT)</th>
+      <td>Plus qu’une moto, la Goldwing se présente comme un privilège.
+      <br> L’emblématique porte drapeau de Honda se met à votre disposition pour vous faire profiter de toutes ses lettres de noblesse.
+      <br> Un confort à tous les étages avec l’onctuosité de son 6 cylindres à plat, une sellerie ergonomique qui se montrera optimale sur les longs parcours mais aussi un équipement remarquable et novateur surtout en terme de sécurité avec le 1er airbag disponible sur un 2 roues.
+      <br> La Goldwing a traversé le temps pour s’imposer comme la référence de la plus réjouissante des expériences de conduite que l’on puisse vivre aujourd’hui sur deux roues.
+
+
+      <br>
+	  La conduite sur route et autoroute est très agréable.</td>
+	  <td> 
+    <a href="javascript:display_photo('../img/goldwing.jpg','1160','828','GOLDWING')">
+    <img src="../img/goldwing.jpg" alt="cb500">
+    </a>
+    </td>
+      </tr>
+
+     <tr>
+      <th scope="row">Les Néo-Rétro</th>
+      <td>Café Racer, Scrambler, Racer, Vintage...
+      <br> Les motos Néo-Rétro se distinguent par leur look des années 60-70 tout en étant équipées des technologies modernes.</td>
+      <td> 
+        <a href="javascript:display_photo('../img/neo-retro.jpg','1160','828','NEO-RETRO')">
+    <img src="../img/neo-retro.jpg" alt="neo-retro">
+    </a>
+      </td>
+     </tr>
+
+      <tr>
+      <th scope="row">Les Cross</th>
+      <td>Ce sont des motos non homologuées pour une utilisation sur la voie publique, ce qui réduit leur usage sur terrains privés destinés à  cet usage.</td>
+      <td> 
+        <a href="javascript:display_photo('../img/crf450.jpg','1160','828','CRF 450')">
+    <img src="../img/crf450.jpg" alt="crf450">
+    </a>
+      </td>
+     </tr>
+
+     <tr>
+      <th scope="row">Les Enduro</th>
+      <td>Ce sont des motos de cross, auxquelles on ajoute des phares, une plaque d'immatriculation, quelques pièces pour permettre une homologation en vue d'un usage sur la voie publique (chemin de campagne, route, etc...)</td>
+      <td> 
+        <a href="javascript:display_photo('../img/crf450enduro.jpg','1160','828','CRF 450 ENDURO')">
+    <img src="../img/crf450enduro.jpg" alt="crf450enduro">
+    </a>
+      </td>
+     </tr>
+
+      <tr>
+      <th scope="row">Les Trial</th>
+      <td>Moto spécialement conçue pour franchir des obstacles.
+		  
+		  <br>
+		  Machines destinées aux loisirs (moto verte) ou à  la compétition.</td>
+		  <td> 
+        <a href="javascript:display_photo('../img/trial.jpg','1160','828','TRIAL')">
+    <img src="../img/trial.jpg" alt="trial">
+    </a>
+       </td>
+      </tr>
+
+      <tr>
+      <th scope="row">Les Supermotard</th>
+      <td>Ce sont des motos de cross ou d'enduro équipées de jantes larges sur lesquelles sont montées des pneus de route.
+      <br> Ce type de moto a été conçu pour faire des courses sur des circuits ayants des parties en terre et des parties en bitume...</td>
+      <td>
+      <a href="javascript:display_photo('../img/supermot.jpg','1160','828','SUPERMOTARD')">
+    <img src="../img/supermot.jpg" alt="supermot">
+    </a> 
+       </td>
+      </tr>
+
+  
+</tbody>
+</table>
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

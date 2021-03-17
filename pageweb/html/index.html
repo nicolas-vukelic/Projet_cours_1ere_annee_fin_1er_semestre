@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>La moto</title>
+  <link rel="stylesheet" href="../css/css.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+ 
+</head>
+
+<script language="JavaScript">
+function display_photo(p_name,p_w,p_h,p_legend) {
+   if (self.innerWidth) {
+      winwidth = self.innerWidth;
+      winheight = self.innerHeight;
+   }
+   else if (document.documentElement && document.documentElement.clientWidth) {
+      winwidth = document.documentElement.clientWidth;
+      winheight = document.documentElement.clientHeight;
+   }
+   else if (document.body) {
+      winwidth = document.body.clientWidth;
+      winheight = document.body.clientHeight;
+   }
+   if (Number(p_w) < winwidth) winwidth = Number(p_w);
+   if (Number(p_h) < winheight) winheight = Number(p_h);
+   winwidth += 8; winheight += 40;
+ pwin=window.open("","","toolbar=0,location=0,directories=0,status=0,menubar=0,resizable=1,scrollbars=yes,copyhistory=0,width="+winwidth+",height="+winheight+",left=10,top=10" );
+   pwin.document.write("<html><head>" );
+   pwin.document.write("<title>Zoom</title>" );
+   pwin.document.write("<style type=text/css>" );
+   pwin.document.write("body {" );
+   pwin.document.write("margin:0;" );
+   pwin.document.write("padding:0;" );
+   pwin.document.write("color:white;" );
+   pwin.document.write("background-color:black; }" );
+   pwin.document.write("</style>" );
+   pwin.document.write("</head>" );
+   pwin.document.write("<body>" );
+   pwin.document.write("<img src="+p_name+" width="+p_w+" height="+p_h+">" );
+   pwin.document.write("<table noborder width=100%><tr>" );
+   pwin.document.write("<form><td align=left>"+p_legend+"</td>" );
+   pwin.document.write("<td align=right><input type='button' value='Fermer' onClick='window.close()'></td>" );
+   pwin.document.write("</tr></table></form>" );
+   pwin.document.write("</body></html>" );
+}
+</script>
+
+<body>
+
+<!--entête-->
+<header class="container-fluid header">
+	<div class="container">
+	
+		<nav class="menu">
+		<a href="#"> Acceuil </a>
+		<a href="typesmoto.html"> Les différents types de motos </a>
+		<a href="equipement.html"> L'équipement </a>
+		</nav>
+	</div>
+
+</header>
+<!-- fin entête-->
+	
+
+
+<!--bannière-->
+
+
+
+
+<section class="container-fluid banner">
+  
+  
+	<div class="ban">
+		<img src="../img/banniere.jpg" alt="bannière">
+	</div>
+	
+
+</section>
+<!--fin bannière-->
+
+
+<!--texte-->
+<section class="container-fluid texte">
+	<div class="container">
+	
+		
+
+		
+		<h2 class="titre">La moto, plus qu'un transport .... Une passion ! </h2>
+		<div class="bloctexte">
+		<br>
+		<br>
+		
+		<p>
+		Plus qu’un simple moyen de transport, la moto, c’est avant tout une passion.
+		Une passion partagée par une communauté à la fois hétéroclite et fraternelle, qui réunit des motards aussi différents que le sportif, le hipster ou l’aventurier.
+		
+		<br>
+		<br>
+
+		Un état d’esprit qui anime chaque instant de notre vie, du coup d’œil par la fenêtre à la moto qui passe, au dépannage d’un copain en panne sur le bord de la route, en passant par cette irrépressible envie de saluer un confrère motard même quand on conduit sa voiture…
+		</p>
+	 
+		</div>
+
+		<div class="img_gauche">
+    <a href="javascript:display_photo('../img/img_gauche.png','1160','828','Moto sportive')">
+			<img src="../img/img_gauche.png">
+    </a>
+		</div>
+
+		<div class="img_centre">
+    <a href="javascript:display_photo('../img/img_centre.jpg','1160','828','Moto cross')">
+			<img src="../img/img_centre.jpg">
+    </a>
+		</div>
+
+
+		<div class="citation_conatct">
+	    <div class="citation">
+	     <p>
+          	Born to ride, ride to leave ...
+          	<br>
+          	<br>
+          	La moto est une passion qui permet aux enfants de rêver d'être adulte, et aux adultes de rester enfants ...
+          	<br>
+          	<br>
+          	4 roues déplacent le corps ... 2 roues déplacent l'esprit.
+          </p>
+      </div>
+
+
+      <div class="img_droite">
+        <a href="javascript:display_photo('../img/img_droite.jpg','1160','828','moto custom')">
+			<img src="../img/img_droite.jpg">
+    </a>
+		</div>		
+
+      <div class="moto">
+      	<p>
+      		La moto est bien plus qu'un moyen de transport, c'est une passion.
+      		<br>
+      		Passion où nous pouvons retrouver 3 principes fondamentaux : Le partage
+      		<br>														 Le respect
+      		<br>														 L'esprit de famille
+      		<br>
+      		</p>
+      </div>	
+
+    </div>
+
+</div>
+
+</div>
+</div>
+</div>
+<br>
+
+		<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+		<hr class="separateur">
+		<h2 class="contact">Contact</h2>
+		<hr class="separateur">
+	 
+
+</section>
+
+
+<!--formulaire-->
+		
+<br>
+
+
+<footer class="container-fluid footer">
+	<div class="container">
+	<div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="well well-sm">
+        
+          <form class="formulaire" action="mailto:VukelicNicolas17@gmail.com"  method="post">
+          		
+          			<br>
+          			<br>
+          			
+            		<h2 class="contactez">Contactez moi pour plus de renseigments !</h2>
+    				<hr class="trait">
+    				<br>
+    				<br>
+            			<!-- Nom-->
+            		<div class="form-group">
+             		 <label class="col-md-3 control-label" for="name">Nom</label>
+             			 <div class="col-md-9">
+               			 <input id="name" name="name" type="text" placeholder="Entrez votre nom" class="form-control">
+              		</div>
+        
+
+    
+            <!-- Email -->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="email">Votre E-mail</label>
+             	 <div class="col-md-9">
+               	 <input id="email" name="email" type="email" placeholder="Entrez votre adresse mail" class="form-control">
+            	</div>
+            </div>
+    
+            <!-- commentaires -->
+            <div class="form-group">
+              	<label class="col-md-3 control-label" for="message">Commentaire(s)</label>
+              	<div class="col-md-9">
+                <textarea class="form-control" id="message" name="message" placeholder="Entrez votre message" rows="5"></textarea>
+              	</div>
+            </div>
+    
+            <!-- envoyer -->
+            <div class="form-group">
+              <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-primary btn-lg ">Envoyer</button>
+              </div>
+            </div>
+            </fieldset>
+          </form>
+
+   
+
+
+
+     
+         
+
+        </div>
+      </div>
+	</div>
+  </div>
+</footer>
+
+
+<!--fin footer-->
+
+	
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

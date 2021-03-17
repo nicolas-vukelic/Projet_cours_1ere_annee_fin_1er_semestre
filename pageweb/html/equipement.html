@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>L'équipement à moto</title>
+  <link rel="stylesheet" href="../css/css.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+ 
+</head>
+<script language="JavaScript">
+function display_photo(p_name,p_w,p_h,p_legend) {
+   if (self.innerWidth) {
+      winwidth = self.innerWidth;
+      winheight = self.innerHeight;
+   }
+   else if (document.documentElement && document.documentElement.clientWidth) {
+      winwidth = document.documentElement.clientWidth;
+      winheight = document.documentElement.clientHeight;
+   }
+   else if (document.body) {
+      winwidth = document.body.clientWidth;
+      winheight = document.body.clientHeight;
+   }
+   if (Number(p_w) < winwidth) winwidth = Number(p_w);
+   if (Number(p_h) < winheight) winheight = Number(p_h);
+   winwidth += 8; winheight += 40;
+ pwin=window.open("","","toolbar=0,location=0,directories=0,status=0,menubar=0,resizable=1,scrollbars=yes,copyhistory=0,width="+winwidth+",height="+winheight+",left=10,top=10" );
+   pwin.document.write("<html><head>" );
+   pwin.document.write("<title>Zoom</title>" );
+   pwin.document.write("<style type=text/css>" );
+   pwin.document.write("body {" );
+   pwin.document.write("margin:0;" );
+   pwin.document.write("padding:0;" );
+   pwin.document.write("color:white;" );
+   pwin.document.write("background-color:black; }" );
+   pwin.document.write("</style>" );
+   pwin.document.write("</head>" );
+   pwin.document.write("<body>" );
+   pwin.document.write("<img src="+p_name+" width="+p_w+" height="+p_h+">" );
+   pwin.document.write("<table noborder width=100%><tr>" );
+   pwin.document.write("<form><td align=left>"+p_legend+"</td>" );
+   pwin.document.write("<td align=right><input type='button' value='Fermer' onClick='window.close()'></td>" );
+   pwin.document.write("</tr></table></form>" );
+   pwin.document.write("</body></html>" );
+}
+</script>
+
+<body>
+
+<!--entête-->
+<header class="container-fluid header">
+	<div class="container">
+	
+		<nav class="menu">
+		<a href="index.html"> Acceuil </a>
+		<a href="typesmoto.html"> Les différents types de motos </a>
+		<a href="#equipement.html"> L'équipement </a>
+		</nav>
+	</div>
+
+</header>
+<!-- fin entête-->
+
+<!--bannière-->
+
+<section class="container-fluid banner3">
+	<div class="ban3">
+		<img src="../img/equipements.jpg" alt="bannière">
+	</div>
+	
+</section>
+<!--fin bannière-->
+
+<br>
+<br>
+
+<hr class="separateur2">
+
+<!--texte-->
+<section class="container-fluid texte">
+	<div class="container">
+	
+		<br>
+		<h2 class="titre">L'équipement du motard</h2>
+
+		<br>
+
+		<hr class="separateur3">
+
+		<br>
+		<br>
+		<br>
+	
+	<div class="equipement1">
+	<article>
+    <h1>L'équipement obligatoire</h1>
+    <article>
+    <br>
+    <br>
+    <h3>Le casque</h3>
+    <p>
+    	En France, le port du casque est obligatoire pour le conducteur et le passager.
+    	<br>L'absence de casque est passible d'une amende et d'un retrait de points sur le permis de conduire et une immobilisation du véhicule est possible.
+    	<br> En cas d'accident, l'absence de casque peut entraîner une réduction voir une annulation de l'indemnisation des dommages corporels couvert par l'assurance.
+    	<br> Le casque protège la tête du motard et doit être renouvelé en cas de chute susceptible de détériorer ses qualités d'absorption des chocs.
+    	<br>A partir du premier janvier 2013 la présence d'un équipement réfléchissant est obligatoire pour les conducteurs et les passagers de motos d'une cylindrée supérieure à 125 cm3 ou d'un véhicule de la catégorie L5e (comme les trikes ou side-car) d'une puissance supérieure à 15 kW.
+
+    	<br>
+    	<br>
+    	<br>
+    	<h3>Les gants</h3>
+    	
+    	Les gants de moto, devenus obligatoire en 2016, pour le conducteur et pour le passager, protègent du froid et des projections diverses (insectes, particules, graviers, etc...).
+    	<br> En cas de chute, les gants permettent de protéger de manière efficace les mains en évitant l'abrasion. Il existe différents types de gants adaptés aux conditions climatiques et aux types de motos (gants d'été ou d'hiver, sport, loisir, tourisme, cross, etc...).
+    	<br> Il est conseillé de n'utiliser que des gants en cuir spécifiques à la conduite de la moto et d'exclure l'usage de gants textiles qui sont sources de brûlures en cas de chute.
+    	<br> Parmi les matériaux présents sur le marché, le Gore-Tex constitue une bonne protection contre la pluie mais aussi contre le froid par l'évaporation de la transpiration.
+
+    </p>
+    </article>
+	</article>
+	</div>
+
+	<div class="equipement2">
+		<article>
+    <h1>Les équipements conseillés (hormis le casque et les gants)</h1>
+    <article>
+    <br>
+    <h3>Les chaussures de moto</h3>
+    <p>
+    	Il est conseillé de porter des chaussures appropriées protégeant les chevilles et si possible en cuir, qui peuvent être renforcées aux emplacements les plus exposés (bottes de motard ou chaussures montantes).
+    	<br> Celles-ci vieillissent moins avec l'usage du sélecteur de vitesses.
+    	<br> Conduire pieds nus ou en chaussures légères est à proscrire.
+
+    	<br>
+    	<br>
+    	<h3>Le blouson de moto</h3>
+    	
+    	Le blouson doit protéger des intempéries et des chutes éventuelles, il comporte généralement des renforts situés au niveau des coudes et des épaules (et si possible une protection dorsale).
+    	<br> Il peut être en cuir ou en textile (il existe des matériaux modernes spéciaux tels que le cordura), suivant la saison et le trajet effectué.
+    	<br> Depuis quelques années plusieurs constructeurs travaillent sur des vestes airbag protégeants efficacement le dos et les cervicales, certains modèles sont déjà certifiés CE et commercialisés.
+
+
+    	<br>
+    	<br>
+    	<h3>Le pantalon de moto</h3>
+    	
+    	Pour les longs trajets ou la pratique sportive, un pantalon en cuir est idéal.
+    	<br> Le pantalon protège des intempéries et de l'abrasion en cas de chute, surtout s'il comporte des renforts aux genoux et aux hanches.
+    	<br> Des matériaux synthétiques peuvent aussi être utilisés.
+    	<br> Les jeans sont un compromis entre la protection et le confort car ils n'absorbent pas les chocs d'une chute même s'ils préservent de l'abrasion, les pantalons de ville ne sont pas adaptés car peu résistants à l'abrasion et peuvent facilement brûler la peau à cause des matières synthétiques.
+    	<br> Sur piste, il est préférable de disposer d'une combinaison offrant un ensemble blouson/pantalon d'un seul tenant, ou d'une liaison solide de type fermeture à glissière.
+    </p>
+    </article>
+	</article>
+	</div>
+	
+
+	<div class="img_equipement">
+		<a href="javascript:display_photo('../img/equipements2.jpg','1160','828','FAITES LE BON CHOIX')">
+    <img src="../img/equipements2.jpg" alt="equipements2">
+    </a>
+	</div>
+
+
+
+
+</div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

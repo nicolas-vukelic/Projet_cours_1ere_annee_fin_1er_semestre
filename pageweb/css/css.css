@@ -1,0 +1,325 @@
+/*#918A8A --> gris */
+/*#ffffff --> blanc */
+/*#FF1100--> rouge*/
+
+
+body,html
+{
+	padding:0;
+	margin:0;
+}
+
+a, a:hover
+{
+	text-decoration:none;
+}
+
+.container-fluid
+{
+	padding:0;
+
+}
+
+
+.trait
+{
+	height:5px;
+	width:70%;
+	border:none;
+	box-shadow:none;
+	background-color:black;
+	position:absolute;
+	left: 20%;
+
+	
+	
+}
+
+
+.separateur
+{
+	position:relative;
+	
+	height:5px;
+	width:17%;
+	border:none;
+	box-shadow:none;
+	background-color:#918A8A;
+
+}
+
+.separateur2
+{
+	position:relative;
+	
+	height:5px;
+	width:22%;
+	border:none;
+	box-shadow:none;
+	background-color:#918A8A;
+
+}
+
+.separateur3
+{
+	position:relative;
+	
+	height:5px;
+	width:37%;
+	border:none;
+	box-shadow:none;
+	background-color:#918A8A;
+
+}
+
+
+
+
+/*entête*/
+
+
+.header
+{
+	background-color: #918A8A;
+	height:70px;
+	line-height:70px;
+}
+
+
+
+.menu 
+{
+	position:absolute;
+	float:left;
+	text-decoration:none;
+	
+	
+}
+
+.menu a
+{
+	color:#ffffff;
+	margin-right: 20px;
+	text-decoration:none;
+}
+
+
+.menu a:hover
+{
+	color:#FF1100;
+	text-decoration:none;
+}
+
+
+/*bannière*/
+
+.banner
+{
+	width:100%;
+	max-width: 100%;
+}
+
+.banner2
+{
+	width:100%;
+	max-width: 100%;
+
+}
+
+
+.banner3
+{
+	width:100%;
+	max-width: 100%;
+
+}
+
+
+.ban img
+{
+	width:100%;
+	max-width:100%;
+}
+
+
+.ban2 img
+{
+	width:100%;
+	max-width:100%;
+	height:1100px;
+	
+}
+
+.ban3 img
+{
+
+	width:105%;
+	max-width:100%;
+	height:1000px;
+	
+}
+
+
+/* texte*/
+
+.titre 
+{
+	text-align: center;
+	padding-top:1%;
+	
+}
+
+.bloctexte 
+{
+	position:absolute;
+	text-align: center;
+	left:3%;
+	padding-top:0%;
+	width:400px;
+	
+}
+
+
+.img_gauche
+{
+	position:absolute;
+	padding-top:23%;
+	left:5%;
+	width : 468px;
+	height: 60px;
+	
+}
+
+.img_centre
+{
+	position:absolute;
+	right:30%;
+	top:165%;
+	width : 468px;
+	height: 20px;
+	
+	
+}
+
+.img_droite
+{
+	position:absolute;
+	right:5%;
+	top:149%;
+	width : 468px;
+	height: 20px;
+	
+	
+}
+
+.citation p
+{
+	text-align: center;
+	padding-left: 34%;
+	padding-top: 40%;
+	width:740px;
+}
+
+.moto
+{
+	position:absolute;
+	text-align: center;
+	right:3%;
+	padding-bottom:25%;
+	
+	width:400px;
+}
+
+.equipement1
+{
+	text-align: left;
+	position:absolute;
+	width:400px;
+	height:100px;
+	left:5%;
+
+}
+
+.equipement2
+{
+	text-align: center;
+	
+	position:absolute;
+	width:400px;
+	height:60px;
+	left:75%;
+
+
+}
+
+.img_equipement
+{
+	position:relative;
+	top:140%;
+	left:17%;
+	padding-top:15%;
+}
+
+
+/*formulaire contact*/
+
+.footer
+{
+	background-color: #918A8A;
+
+}
+
+.contact 
+{
+	position: relative;
+	text-align: center;
+}
+
+
+
+
+
+
+.formulaire
+{
+	width:800px;
+	float :left;
+	
+}
+
+
+
+.input
+{
+	margin-bottom: 30px;
+}
+
+input [type=text]
+{
+	height:20px;
+	width:500px;
+	border:none;
+}
+
+input [type=email]
+{
+	height:20px;
+	width:500px;
+	border:none;
+}
+
+textarea
+{
+	width:500px;
+	height:200px;
+	resize:vertical;
+
+}
+
+input [type=submit]
+{
+	background-color: #ffffff;
+}
+
+
+
